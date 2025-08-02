@@ -1,4 +1,37 @@
-# automatic-number-plate-recognition-python-yolov8
+# machine_learning_corporate
+
+This repository contains two main features:
+1. **Automatic Number Plate Recognition (ANPR)** - Python implementation using YOLOv8
+2. **Sanjay Fuloria Chatbot** - AI chatbot that answers questions about Sanjay Fuloria using Claude Sonnet
+
+## 🤖 Sanjay Fuloria Chatbot
+
+A conversational AI chatbot powered by Claude Sonnet that can answer questions about Sanjay Fuloria's professional background, expertise, and projects.
+
+### Features
+- Interactive chat interface
+- Questions about machine learning expertise
+- Information about technical skills and projects
+- Details about the ANPR system and other work
+
+### Quick Start
+```bash
+# Set your Anthropic API key
+export ANTHROPIC_API_KEY="your-api-key-here"
+
+# Interactive mode
+python chatbot_cli.py --interactive
+
+# Ask a single question
+python chatbot_cli.py --question "What is Sanjay's expertise?"
+
+# Show available topics
+python chatbot_cli.py --topics
+```
+
+See [CHATBOT_CONFIG.md](CHATBOT_CONFIG.md) for detailed setup instructions.
+
+## 🚗 Automatic Number Plate Recognition (ANPR)
 
 <p align="center">
 <a href="https://www.youtube.com/watch?v=fyJB1t0o0ms">
